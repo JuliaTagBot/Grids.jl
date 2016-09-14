@@ -2,8 +2,7 @@
 
 The purpose of Grids.jl will be to define efficient types for holding Grids. The
 types of functions that this will handle are familiar things like `linspace`,
-`meshgrid`, `ndgrid`, and finite element grids (developing simplex grids
-for surfaces and shapes). Key features will be:
+`meshgrid`, `ndgrid`. Key features will be:
 
 - These functions will return low-memory iterator types
 - Be able to be `collect()`ed into standard arrays
